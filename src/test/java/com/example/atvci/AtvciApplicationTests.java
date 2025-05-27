@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AtvControllerTest {
 
-	AtvciApplication controller = new AtvciApplication();
+	Teste01 controller = new Teste01();
 
 	@Test
 	void helloTest () {

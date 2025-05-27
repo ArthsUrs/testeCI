@@ -1,8 +1,8 @@
 name: licao Sis Distr
 
 on:
-    push:
-        branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
     build:
@@ -19,3 +19,4 @@ jobs:
 
             - name: Build with Maven
               run: mvn -B package -DskipTests
+
